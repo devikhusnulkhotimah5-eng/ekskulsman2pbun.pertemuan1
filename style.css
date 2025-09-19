@@ -1,0 +1,78 @@
+/* Umum */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background-image: url('images/background-alam.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(0, 100, 0, 0.7);
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.school-info img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.student-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.student-data th,
+.student-data td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-images div {
+  text-align: center;
+  max-width: 300px;
+}
+
+.gallery-images img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 50, 0, 0.8);
+  margin-top: 40px;
+}
